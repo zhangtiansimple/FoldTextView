@@ -1,5 +1,5 @@
 # FoldTextView
-## 简单活好事少的展开收起TextView
+### 简单活好事少的展开收起TextView
 
 ### 效果图
 <center class="half">
@@ -10,11 +10,11 @@
 
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 ```
@@ -56,7 +56,7 @@ dependencies {
         });
 ```
 |可选属性 |取值|
-|---|---:|
+|---|---|
 | maxUnfoldLines|折叠最大行数，默认为3|
 | animDuration|展开收起动画执行时常，默认300毫秒|
 | contentTextSize|内容字体大小，默认16|
