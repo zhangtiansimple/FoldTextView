@@ -120,8 +120,8 @@ public class FoldTextView extends LinearLayout implements View.OnClickListener {
         mFoldString = typedArray.getString(R.styleable.FoldTextView_foldText) == null ? context.getString(R.string.str_fold) : typedArray.getString(R.styleable.FoldTextView_foldText);
         mStateTvGravity = typedArray.getInt(R.styleable.FoldTextView_stateTvGravity, FoldConfig.STATE_TV_GRAVITY);
         mStateTextColor = typedArray.getColor(R.styleable.FoldTextView_stateTextColor, Color.BLACK);
-        mUnFoldDrawable = FoldUtils.resize(getContext(), typedArray.getDrawable(R.styleable.FoldTextView_unFoldDrawable) == null ? ContextCompat.getDrawable(context, R.drawable.ic_fold) : typedArray.getDrawable(R.styleable.FoldTextView_unFoldDrawable), FoldConfig.STATE_TV_ICON_SIZE);
-        mFoldDrawable = FoldUtils.resize(getContext(), typedArray.getDrawable(R.styleable.FoldTextView_foldDrawable) == null ? ContextCompat.getDrawable(context, R.drawable.ic_unfold) : typedArray.getDrawable(R.styleable.FoldTextView_foldDrawable), FoldConfig.STATE_TV_ICON_SIZE);
+        mUnFoldDrawable = FoldUtils.resize(getContext(), typedArray.getDrawable(R.styleable.FoldTextView_unFoldDrawable) == null ? ContextCompat.getDrawable(context, R.drawable.ic_unfold) : typedArray.getDrawable(R.styleable.FoldTextView_unFoldDrawable), FoldConfig.STATE_TV_ICON_SIZE);
+        mFoldDrawable = FoldUtils.resize(getContext(), typedArray.getDrawable(R.styleable.FoldTextView_foldDrawable) == null ? ContextCompat.getDrawable(context, R.drawable.ic_fold) : typedArray.getDrawable(R.styleable.FoldTextView_foldDrawable), FoldConfig.STATE_TV_ICON_SIZE);
 
         typedArray.recycle();
     }
