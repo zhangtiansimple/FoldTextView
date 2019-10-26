@@ -42,11 +42,11 @@ dependencies {
 ```
 
 ```
-	FoldTextView mFoldTextView = findViewById(R.id.fold_text_view);
-	mFoldTextView1.setText("your content");
-        mFoldTextView1.setStatusListener(new FoldStatusListener() {
-            @Override
-            public void onFoldStateChanged(TextView tv, boolean isFold) {
+FoldTextView mFoldTextView = findViewById(R.id.fold_text_view);
+mFoldTextView1.setText("your content");
+mFoldTextView1.setStatusListener(new FoldStatusListener() {
+	@Override
+	public void onFoldStateChanged(TextView tv, boolean isFold) {
                 if (isFold) {
                     Log.d(TAG, "isFold");
                 } else {
