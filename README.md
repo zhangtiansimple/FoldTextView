@@ -19,7 +19,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.zhangtiansimple:FoldTextView:1.0.0'
+    implementation 'com.github.zhangtiansimple:FoldTextView:v1.0.1'
 }
 ```
 
