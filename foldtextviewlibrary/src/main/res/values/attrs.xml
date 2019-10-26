@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FoldTextView">
+        <attr name="maxUnfoldLines" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+        <attr name="contentTextSize" format="dimension"/>
+        <attr name="contentTextColor" format="color"/>
+        <attr name="contentLineSpaceMultiplier" format="float"/>
+        <attr name="unFoldDrawable" format="reference"/>
+        <attr name="unFoldText" format="string"/>
+        <attr name="foldDrawable" format="reference"/>
+        <attr name="foldText" format="string"/>
+        <attr name="stateTextColor" format="color"/>
+        <attr name="stateTvGravity">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
