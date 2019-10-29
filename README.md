@@ -3,7 +3,7 @@
 
 ### 效果图
 <center class="half">
-    <img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/pic_1.jpg" width="300"/><img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/pic_2.jpg" width="300"/>
+    <img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/one.png" width="300"/><img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/two.png" width="300"/>
 </center>
               
 ### 使用
