@@ -43,8 +43,8 @@ dependencies {
 
 ```
 FoldTextView mFoldTextView = findViewById(R.id.fold_text_view);
-mFoldTextView1.setText("your content");
-mFoldTextView1.setStatusListener(new FoldStatusListener() {
+mFoldTextView.setText("your content");
+mFoldTextView.setStatusListener(new FoldStatusListener() {
 	@Override
 	public void onFoldStateChanged(TextView tv, boolean isFold) {
                 if (isFold) {
