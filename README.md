@@ -3,7 +3,7 @@
 
 ### 效果图
 <center class="half">
-    <img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/one.png" width="300"/><img src="https://github.com/zhangtiansimple/FoldTextView/blob/master/app/pic/two.png" width="300"/>
+    <img src="https://img-blog.csdnimg.cn/20191030173558109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzMzMTUwNDE3,size_16,color_FFFFFF,t_70" width="300"/><img src="https://img-blog.csdnimg.cn/20191030173612390.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NpbmF0XzMzMTUwNDE3,size_16,color_FFFFFF,t_70" width="300"/>
 </center>
               
 ### 使用
